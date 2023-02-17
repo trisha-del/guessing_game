@@ -11,7 +11,12 @@ print(cars["country"])
 person ={
     "name":"tess",
     "age" :"18",
-    "pets":["dog","cat"]
-}
-print(person["name"])
+    "pets":{
+        "dog":"x",
+        "cat":"y"
+    }
+    }
 print(person["pets"])
+
+
+
